@@ -1,5 +1,6 @@
+// dotenv.config();
 const Sequelize = require('sequelize');
 
-const sequelize = new Sequelize("postgres://postgres:16e178946be14ab9abd46a256ad6b0ce@localhost:5432/ochub");
+const sequelize = new Sequelize(process.env.postman_password);
 
 module.exports = sequelize;
