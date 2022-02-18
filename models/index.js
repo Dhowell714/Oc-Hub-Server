@@ -1,3 +1,7 @@
 const UserModel = require("./user");
+const OcModel = require("./oc");
 
-module.exports = { UserModel };
+module.exports = {
+    UserModel,
+    OcModel
+};
